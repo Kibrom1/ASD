@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\kbfara\Desktop\Study\ASD Course\My-ASD-All\.git">
+			<item value="false"/>
+			<item value="kbfara &lt;kibrom1&gt;"/>
+			<item value="bank factory pattern"/>
+			<item value="kbfara &lt;kibrom1&gt;"/>
+			<item value="cb9678c4ed3b9237543c714cb6b2a23b5fb69b03"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

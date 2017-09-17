@@ -1,0 +1,33 @@
+import java.math.BigDecimal;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
+public class Unmarshaller {
+	public static void main(String args[]) {
+		JAXBContext context;
+		try {
+			context = JAXBContext.newInstance(Product.class);
+
+			m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+
+			Product object = new Product();
+
+			object.setCode("WI1");
+
+			object.setName("Widget Number One");
+
+			object.setPrice(BigDecimal.valueOf(300.00));
+
+			m.marshal(object, System.out);
+		} catch (JAXBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		Marshaller m = context.createMarshaller();
+
+
+	}
+}
